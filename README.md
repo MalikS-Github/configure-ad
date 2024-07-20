@@ -38,7 +38,7 @@ This tutorial provides a comprehensive guide to the implementation of on-premise
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_603f4353531c4e6f923ac17dad835795~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1118" alt="Step 1" src="https://github.com/user-attachments/assets/766e6fd4-173e-4b10-acca-5df6947ea760">
 </p>
 <p>
 Step 1: Create a resource group that can be utilized on both virtual machines (VM).
@@ -47,7 +47,7 @@ Step 1: Create a resource group that can be utilized on both virtual machines (V
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_5464c352bd08402bb7c682b246726a80~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="823" alt="Step 2" src="https://github.com/user-attachments/assets/b1c6a022-36b0-41b5-8bfd-7b11298165ac">
 </p>
 <p>
 Step 2: Set up the domain controller running Active Directory by creating the first virtual machine with Windows Server 2022 as the image.
@@ -56,7 +56,7 @@ Step 2: Set up the domain controller running Active Directory by creating the fi
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_c5c8268a6fbc430a9a2d1c48701e9cdc~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="674" alt="Step 3" src="https://github.com/user-attachments/assets/b320373d-5b82-41f9-9791-0cee12998aff">
 </p>
 <p>
 Step 3: Create a username and password for the Windows Server virtual machine, then click on "Review + Create".
@@ -65,7 +65,7 @@ Step 3: Create a username and password for the Windows Server virtual machine, t
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_6a90fb6b8c8a4676970fc880771c3dd8~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="841" alt="Step 4" src="https://github.com/user-attachments/assets/6f194a5a-c245-46a9-9e8f-1f70b4ddadae">
 </p>
 <p>
 Step 4: Set up the second virtual machine with Windows 10 Pro, Version 21H2, create a username and password, then click on "Review + Create".
@@ -74,7 +74,7 @@ Step 4: Set up the second virtual machine with Windows 10 Pro, Version 21H2, cre
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_54d1c0b97da64f4295263c613c908d7b~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="830" alt="Step 5" src="https://github.com/user-attachments/assets/221e932d-1130-429e-ae9d-f0c5f92c01f0">
 </p>
 <p>
 Step 5: Ensure that VM2 running Windows 10 Pro is added to the same virtual network and resource group as VM1 running Windows Server, by going to the networking tab.
@@ -83,16 +83,16 @@ Step 5: Ensure that VM2 running Windows 10 Pro is added to the same virtual netw
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_abcadc2bd9a840d2bfd4c2d58fa16877~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1100" alt="Step 6" src="https://github.com/user-attachments/assets/c2d31dbf-f4ec-4bac-b32e-c8267b9e7d62">
 </p>
 <p>
-Step 6: Navigate to the Azure virtual machines and select Virtual Machine 1, then click on "Networking" and choose "Network interface".
+Step 6: Navigate to the Azure virtual machines and select Virtual Machine 1, then click on "Networkin Settings" and choose "Network interface".
 </p>
 <br />
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_6afd1f4b28714e52a4d435b25aa98164~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1119" alt="Step 7" src="https://github.com/user-attachments/assets/25caa60b-c031-4872-a770-c526acde47b1">
 </p>
 <p>
 Step 7: Proceed to "IP Configurations" and select "ipconfig 1".
@@ -101,7 +101,7 @@ Step 7: Proceed to "IP Configurations" and select "ipconfig 1".
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_9be41f151f394d5ca2577f7eb188e3cd~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1119" alt="Step 7" src="https://github.com/user-attachments/assets/69a6e4fc-b665-48ed-94a7-f0ce1d000829">
 </p>
 <p>
 Step 8: Switch the Private IP address assignment from Dynamic to Static, then select "Save".
@@ -110,7 +110,7 @@ Step 8: Switch the Private IP address assignment from Dynamic to Static, then se
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_004b3e69435640a5ad30979a0756e40e~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+
 </p>
 <p>
 Step 9: Use Remote Desktop Connection to connect to VM1 using its public IP address.
@@ -119,7 +119,7 @@ Step 9: Use Remote Desktop Connection to connect to VM1 using its public IP addr
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_0b79d63027284f9e95e7affa10c3201b~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1106" alt="Step 8" src="https://github.com/user-attachments/assets/d9855eea-9b43-4dcf-9f17-6a975c73c9c7">
 </p>
 <p>
 Step 10: Once logged into the virtual machine, navigate to Windows Defender Firewall with Advanced Security, and click on Inbound Security Rules. Enable the following rules:
@@ -132,7 +132,7 @@ Step 10: Once logged into the virtual machine, navigate to Windows Defender Fire
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_a4ef98e50ae54c1e92b7b4fad9f9ff70~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1091" alt="Step 9" src="https://github.com/user-attachments/assets/e4574252-9a42-4c5a-8acf-25315e95530c">
 </p>
 <p>
 Step 11: Open Server Manager and select "Add Roles and Features."
@@ -141,7 +141,7 @@ Step 11: Open Server Manager and select "Add Roles and Features."
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_48b908e3f8924632b324ece872af3497~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="585" alt="Step 10" src="https://github.com/user-attachments/assets/6a4725fa-ed10-4d90-bf27-db1299f504f1">
 </p>
 <p>
 Step 12: Follow the default installation settings until you reach "Server Roles." Select "Active Directory Domain Services" and click "Next."
@@ -150,7 +150,7 @@ Step 12: Follow the default installation settings until you reach "Server Roles.
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_54771f89b17947e493a85f50579624c3~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="588" alt="Step 11" src="https://github.com/user-attachments/assets/7cc8e743-6125-4048-a926-2ba512e9c1e5">
 </p>
 <p>
 Step 13: Continue with the default installation settings until the final page, then click "Install."
@@ -159,7 +159,7 @@ Step 13: Continue with the default installation settings until the final page, t
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_0836ce5db2b74e728ee07c32528c9759~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1091" alt="Step 12" src="https://github.com/user-attachments/assets/0097fa08-0149-4de8-9520-5bf67cd5af31">
 </p>
 <p>
 Step 14: Click on the flag icon in Server Manager with the yellow warning sign and select "Promote this server to a domain controller."
@@ -168,7 +168,7 @@ Step 14: Click on the flag icon in Server Manager with the yellow warning sign a
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_afac43aa566a45f09d21da0cbe93951c~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="568" alt="Step 13" src="https://github.com/user-attachments/assets/de7fc1d6-83d2-4504-8f37-aaaed2b87f9b">
 </p>
 <p>
 Step 15: Select "Add a new forest" and choose a domain name for the root.
@@ -177,7 +177,7 @@ Step 15: Select "Add a new forest" and choose a domain name for the root.
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_b06ff6b33d5841acabe5f406ce2a5f4c~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="572" alt="Step 14" src="https://github.com/user-attachments/assets/4e656945-5fe1-4165-b092-f167b1e865c9">
 </p>
 <p>
 Step 16: Choose a password for Directory Services Restore Mode (DSRM).
@@ -186,7 +186,7 @@ Step 16: Choose a password for Directory Services Restore Mode (DSRM).
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_600036509a034aa6a24137a63add799c~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="572" alt="Step 15" src="https://github.com/user-attachments/assets/fee871a6-c8ed-4c77-8376-415c0e511d1c">
 </p>
 <p>
 Step 17: Proceed with the default installation settings and click the "Install" button.
@@ -195,7 +195,7 @@ Step 17: Proceed with the default installation settings and click the "Install" 
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_d608270bf12e45e580b5ba70f4fdd25d~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="505" alt="Step 16" src="https://github.com/user-attachments/assets/79d92ac9-663c-4139-ba8b-3aaaf036504d">
 </p>
 <p>
 Step 18: After successfully installing Active Directory Domain Services, the remote desktop connection will automatically restart.
@@ -204,7 +204,7 @@ Step 18: After successfully installing Active Directory Domain Services, the rem
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_50ee1cb680064114b6f8441fb758f676~mv2.png" height="40%" width="40%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="337" alt="Step 17" src="https://github.com/user-attachments/assets/40d7bc5c-589b-435e-bb3d-7adaf33f1695">
 </p>
 <p>
 Step 19: To log back into the virtual machine, use Remote Desktop Connection with the domain name chosen for root followed by a backslash and the username you selected for the VM. Enter the password and click on the "Ok" button.
@@ -213,7 +213,7 @@ Step 19: To log back into the virtual machine, use Remote Desktop Connection wit
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_01b6df7404084f40b153dfdb176ef2ed~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1085" alt="Step 18" src="https://github.com/user-attachments/assets/476488c4-88a7-49cf-9d29-c813fda1af9a">
 </p>
 <p>
 Step 20: To organize users into different categories, navigate to Tools in Server Manager and select Active Directory Users and Computers.
@@ -222,7 +222,7 @@ Step 20: To organize users into different categories, navigate to Tools in Serve
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_d422da2a5c05422e823885caf80bb74e~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="323" alt="Step 19" src="https://github.com/user-attachments/assets/52f52361-3a96-4587-93a2-0d4ebe3208f1">
 </p>
 <p>
 Step 21: Create two folders named "Employees" and "Admins" by right-clicking on the created domain, select "New", then choose "Organizational Unit" in Server Manager.
@@ -231,7 +231,7 @@ Step 21: Create two folders named "Employees" and "Admins" by right-clicking on 
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_5bbadb6c32174480b67739df0d04c60a~mv2.png" height="40%" width="40%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="323" alt="Step 20" src="https://github.com/user-attachments/assets/96d02ab7-bd55-4a99-b215-1e8590c0a595">
 </p>
 <p>
 Step 22: Navigate to the newly created "Admins" folder, then select "New" and choose "User" to create a user account. that with administrative privileges.
@@ -240,7 +240,7 @@ Step 22: Navigate to the newly created "Admins" folder, then select "New" and ch
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_43ff9a5f03bb48808993b3f2f3a08c38~mv2.png" height="50%" width="50%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="424" alt="Step 21" src="https://github.com/user-attachments/assets/34f09d05-5e97-4d9b-b7be-f94924fa9723">
 </p>
 <p>
 Step 23: To give the newly created user administrative privileges, right-click on the user in the Admins folder and select Properties. Then, navigate to the "Member of" tab and click on "Add". Finally, add the user to the Domain Admins group.
@@ -249,7 +249,7 @@ Step 23: To give the newly created user administrative privileges, right-click o
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_75c27af4ae794f26b4216832643916dc~mv2.png" height="40%" width="40%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="332" alt="Step 22" src="https://github.com/user-attachments/assets/e63a5825-bdbe-4fca-9892-614a093ee978">
 </p>
 <p>
 Step 24: After logging off, use the remote desktop connection to access the domain controller with the newly created admin user.
@@ -258,7 +258,8 @@ Step 24: After logging off, use the remote desktop connection to access the doma
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_2e678d71387f41089cca917b72af32ba~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1112" alt="Step 23" src="https://github.com/user-attachments/assets/7bb971de-ab72-49c9-b229-2b0dc58ea1f2">
+
 </p>
 <p>
 Step 25: Return to the Azure portal on your local computer and navigate to Virtual Machine 1. Then, go to Networking and copy the NIC Private IP. Finally, update virtual machine 2's DNS to match this IP address.
@@ -267,7 +268,7 @@ Step 25: Return to the Azure portal on your local computer and navigate to Virtu
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_ba1e5deb73904fcda9d1a2f2cc3ae134~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1091" alt="Step 24" src="https://github.com/user-attachments/assets/17a526ac-12bd-48d9-8670-0f69d28e9cc7">
 </p>
 <p>
 Step 26: Navigate to the Network Interface section of virtual machine 2 in the Azure Portal.
@@ -276,7 +277,7 @@ Step 26: Navigate to the Network Interface section of virtual machine 2 in the A
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_e9bea6246b734d9fa4ff69670f07c694~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="727" alt="Step 25" src="https://github.com/user-attachments/assets/e661e344-14fe-4852-bc4a-f6782b1046d9">
 </p>
 <p>
 Step 27: Navigate to Network Interface in the Azure Portal for virtual machine 2. Then, select DNS Servers and choose "Custom" to update the DNS Server settings with virtual machine 1's Private IP. Finally, click on "Save" to save the changes.
@@ -285,7 +286,7 @@ Step 27: Navigate to Network Interface in the Azure Portal for virtual machine 2
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_dfee12c4b27e422891420c5f833c1792~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="715" alt="Step 26" src="https://github.com/user-attachments/assets/7aae2a4e-443b-4635-8c19-6f7fe5856dbc">
 </p>
 <p>
 Step 28: Use the selected username and password during the initial setup of the Windows 10 virtual machine to re-establish a Remote Desktop Connection.
@@ -294,7 +295,7 @@ Step 28: Use the selected username and password during the initial setup of the 
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_305d1d2278f340e5acf5ae8a296d60dc~mv2.png" height="40%" width="40%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="302" alt="Step 27" src="https://github.com/user-attachments/assets/41ba600f-22cc-4b59-9a5b-9d37714d7428">
 </p>
 <p>
 Step 29: Right-click the Windows logo located in the bottom left corner of the screen, select "System", then "About", and click on "Rename this PC (advanced)" followed by "Change".
@@ -303,7 +304,7 @@ Step 29: Right-click the Windows logo located in the bottom left corner of the s
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_451df308c0194308a87da5f185e707d5~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="713" alt="Step 28" src="https://github.com/user-attachments/assets/b27deec7-b2ce-4557-9b47-c4e6fb6837a8">
 </p>
 <p>
 Step 30: Next, click on "Domain" under the "Member of" section and enter the domain name that was previously chosen for root, click "OK", and provide the username and password of the admin user.
@@ -312,7 +313,7 @@ Step 30: Next, click on "Domain" under the "Member of" section and enter the dom
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_6ee318e0728d48588f91c1985c1265c5~mv2.png" height="30%" width="30%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="234" alt="Step 29" src="https://github.com/user-attachments/assets/8a309a9d-5abf-45ee-8185-3b75466e94fe">
 </p>
 <p>
 Step 31: In the event that the joining of VM2 to the domain controller VM1 is successful, a welcome message should be received.
@@ -321,7 +322,7 @@ Step 31: In the event that the joining of VM2 to the domain controller VM1 is su
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_ba46d5b15472496296db24bce708108a~mv2.png" height="30%" width="30%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="260" alt="Step 30" src="https://github.com/user-attachments/assets/df6585f5-035a-4944-bab6-b00fd238f3b3">
 </p>
 <p>
 Step 32: After successfully joining the domain controller, a machine restart will be initiated to apply the changes.
@@ -330,7 +331,7 @@ Step 32: After successfully joining the domain controller, a machine restart wil
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_9b2dbe93bd224bc8a00e127bbb5f8e26~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="893" alt="Step 31" src="https://github.com/user-attachments/assets/41f4c821-c53d-488b-82df-456ca9df26af">
 </p>
 <p>
 Step 33: To proceed, remotely connect back to VM2 using the admin user credentials, then navigate to "System", go to "About", followed by "Remote Desktop", and click on “Select users who have remote access to this PC".
@@ -339,10 +340,10 @@ Step 33: To proceed, remotely connect back to VM2 using the admin user credentia
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_6fe1be950a75430f8eb9decc3bb7a31e~mv2.png" height="40%" width="40%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="340" alt="Step 32" src="https://github.com/user-attachments/assets/49951f6a-f521-4b20-bfe2-dd8b2509fd03">
 </p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_4710dd3f58c04c5dabf210b6ae01f744~mv2.png" height="40%" width="40%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="280" alt="Step 32 -2" src="https://github.com/user-attachments/assets/0fde4566-2a29-40db-bba4-b3f2a4aa8546">
 </p>
 <p>
 Step 34: Subsequently, click on "Add", enter "Domain Users", and click "OK" to grant access to <b><i>all</b></i> user accounts created in Active Directory to the domain controller.
@@ -351,7 +352,7 @@ Step 34: Subsequently, click on "Add", enter "Domain Users", and click "OK" to g
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_c7a095899b6143f49cc2ee6cbfca82ca~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="588" alt="Step 33" src="https://github.com/user-attachments/assets/26480329-ebe6-4000-9ce0-071bf91f3a92">
 </p>
 <p>
 Step 35: Launch Windows PowerShell ISE with administrator privileges to create additional user accounts.
@@ -360,7 +361,7 @@ Step 35: Launch Windows PowerShell ISE with administrator privileges to create a
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_2319dc164f87456e81c52ff601d33804~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1004" alt="Step 34" src="https://github.com/user-attachments/assets/dec52833-ea23-4f9c-8bbb-b85cb61a82d2">
 </p>
 <p>
 Step 36: Copy and paste the code provided in the <a href="https://github.com/stevenmnocent/configure-ad/blob/main/Code%20to%20Create%20User%20Accounts.txt">text document</a> uploaded to this tutorial into PowerShell ISE.
@@ -369,7 +370,8 @@ Step 36: Copy and paste the code provided in the <a href="https://github.com/ste
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_582629d2c89e483f8dce9d15e0cab5e6~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1106" alt="Step 35" src="https://github.com/user-attachments/assets/1f65984a-fccd-414f-aad1-0c28ed14f032">
+
 </p>
 <p>
 Step 37: Open PowerShell ISE, create a new script, paste the provided code, and click the green "run script" button.
@@ -378,7 +380,7 @@ Step 37: Open PowerShell ISE, create a new script, paste the provided code, and 
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_286eff84d6f94de394014660d796c31b~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="559" alt="Step 36" src="https://github.com/user-attachments/assets/2f7cbcd3-5496-4114-b29c-479d8f198397">
 </p>
 <p>
 Step 38 – If the aforementioned steps were executed correctly, user accounts should start to generate within PowerShell.
@@ -387,7 +389,7 @@ Step 38 – If the aforementioned steps were executed correctly, user accounts s
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_ba261af7adb046af8532b76ff3a88781~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="1094" alt="Step 37" src="https://github.com/user-attachments/assets/ef32de55-f915-4cce-bde0-d5238eec4bea">
 </p>
 <p>
 Step 39: Launch Active Directory Users and Computers in Server Manager and observe the various accounts populating in the Employees folder.
@@ -396,7 +398,7 @@ Step 39: Launch Active Directory Users and Computers in Server Manager and obser
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_3dd04031bb534bd6b526152a907a30e1~mv2.png" height="80%" width="80%" alt="Configuring On-premises Active Directory within Azure VMs"/>
+<img width="709" alt="Step 38" src="https://github.com/user-attachments/assets/2a7c1f9f-80be-41a5-a023-94c480b12828">
 </p>
 <p>
 Step 40: Select a user account at random and try to log into virtual machine 2 using the default password assigned to all user accounts, which is "Password1".
