@@ -334,7 +334,7 @@ Step 32: After successfully joining the domain controller, a machine restart wil
 <img width="893" alt="Step 31" src="https://github.com/user-attachments/assets/41f4c821-c53d-488b-82df-456ca9df26af">
 </p>
 <p>
-Step 33: To proceed, remotely connect back to VM2 using the admin user credentials, then navigate to "System", go to "About", followed by "Remote Desktop", and click on “Select users who have remote access to this PC".
+Step 33: To proceed, remotely connect back to VM2 using the admin user credentials, then navigate to "System", go to "About", followed by "Remote Desktop", and click on “select users that can remotely access this pc".
 </p>
 <br />
 
