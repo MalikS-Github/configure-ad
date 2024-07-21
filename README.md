@@ -417,11 +417,3 @@ Step 41: Once a user account on Active Directory is successfully logged in, this
 </p>
 <br />
 
-<p align="center">🔨 <b><i>Hard work beats talent when talent doesn't work hard. ~ Tim Notke</b></i> 👨🏾‍💻</p>
-<br />
-
-<p align="right"> Next: <a href="https://github.com/stevennocent/dns-management"
->DNS Management of A-Records, CNMAE Records and Local DNS Cache</a></p>
-The pain itself is very important, it will be followed by the client, but it will happen at the same time as a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain.
-</p> 
-<br />
