@@ -364,7 +364,7 @@ Step 35: Launch Windows PowerShell ISE with administrator privileges to create a
 <img width="1004" alt="Step 34" src="https://github.com/user-attachments/assets/dec52833-ea23-4f9c-8bbb-b85cb61a82d2">
 </p>
 <p>
-Step 36: Copy and paste the code provided in the <a href="https://github.com/stevenmnocent/configure-ad/blob/main/Code%20to%20Create%20User%20Accounts.txt">text document</a> uploaded to this tutorial into PowerShell ISE.
+Step 36: Copy and paste the code provided in the <a href=https://github.com/MalikS-Github/configure-ad/blob/main/Code%20to%20Create%20Users>text document</a> uploaded to this tutorial into PowerShell ISE.
 </p>
 <br />
 
