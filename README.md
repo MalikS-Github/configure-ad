@@ -110,7 +110,7 @@ Step 8: Switch the Private IP address assignment from Dynamic to Static, then se
 
 <p>
 <p align="center"> 
-
+<img width="1108" alt="image" src="https://github.com/user-attachments/assets/59f6a995-513c-4287-8004-2ca7ca5256b9">
 </p>
 <p>
 Step 9: Use Remote Desktop Connection to connect to VM1 using its public IP address.
