@@ -361,7 +361,7 @@ Step 35: Launch Windows PowerShell ISE with administrator privileges to create a
 
 <p>
 <p align="center"> 
-<img width="1004" alt="Step 34" src="https://github.com/user-attachments/assets/dec52833-ea23-4f9c-8bbb-b85cb61a82d2">
+<img width="880" alt="image" src="https://github.com/user-attachments/assets/34cdf2f7-7eaf-44ad-91a1-d3f3acff7d1a">
 </p>
 <p>
 Step 36: Copy and paste the code provided in the <a href=https://github.com/MalikS-Github/configure-ad/blob/main/Code%20to%20Create%20Users>text document</a> uploaded to this tutorial into PowerShell ISE.
@@ -370,7 +370,7 @@ Step 36: Copy and paste the code provided in the <a href=https://github.com/Mali
 
 <p>
 <p align="center"> 
-<img width="1106" alt="Step 35" src="https://github.com/user-attachments/assets/1f65984a-fccd-414f-aad1-0c28ed14f032">
+<img width="1004" alt="Step 34" src="https://github.com/user-attachments/assets/41d70461-cf0a-4f7b-a2a4-ffc0fb91d322">
 
 </p>
 <p>
@@ -380,25 +380,26 @@ Step 37: Open PowerShell ISE, create a new script, paste the provided code, and 
 
 <p>
 <p align="center"> 
-<img width="559" alt="Step 36" src="https://github.com/user-attachments/assets/2f7cbcd3-5496-4114-b29c-479d8f198397">
+<img width="1106" alt="Step 35" src="https://github.com/user-attachments/assets/1f65984a-fccd-414f-aad1-0c28ed14f032">
+
 </p>
 <p>
 Step 38 – If the aforementioned steps were executed correctly, user accounts should start to generate within PowerShell.
 </p>
 <br />
-
 <p>
 <p align="center"> 
-<img width="1094" alt="Step 37" src="https://github.com/user-attachments/assets/ef32de55-f915-4cce-bde0-d5238eec4bea">
+<img width="281" alt="Step 38" src="https://github.com/user-attachments/assets/f9521e2c-dc32-4d42-b1f2-9e62bd88d109">
 </p>
 <p>
 Step 39: Launch Active Directory Users and Computers in Server Manager and observe the various accounts populating in the Employees folder.
 </p>
 <br />
-
+<p align="center"> 
+<img width="559" alt="Step 36" src="https://github.com/user-attachments/assets/262b0021-5083-4f06-9637-b5cab05f6bd3">
 <p>
 <p align="center"> 
-<img width="709" alt="Step 38" src="https://github.com/user-attachments/assets/2a7c1f9f-80be-41a5-a023-94c480b12828">
+<img width="1094" alt="Step 37" src="https://github.com/user-attachments/assets/ef32de55-f915-4cce-bde0-d5238eec4bea">
 </p>
 <p>
 Step 40: Select a user account at random and try to log into virtual machine 2 using the default password assigned to all user accounts, which is "Password1".
@@ -407,8 +408,6 @@ Step 40: Select a user account at random and try to log into virtual machine 2 u
 
 <p>
 <p align="center"> 
-<img src="https://static.wixstatic.com/media/2ebf04_d78f58f24a0849af83920875e19bbb91~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
-</p>
 <p align="center"> 
 <img src="https://static.wixstatic.com/media/2ebf04_61d6255d81ee411e93fde25cd355a124~mv2.png" height="60%" width="60%" alt="Configuring On-premises Active Directory within Azure VMs"/>
 </p>
